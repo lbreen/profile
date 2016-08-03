@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(230, 230, 230);
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open sans', serif;
+}
+
+.card, .header {
+  background: white;
+  border-radius: 4px;
+  padding: 30px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  margin: 10px auto;
+}
+
+h1, h2 {
+  font-family: 'Montserat', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  width: 500px;
+  margin: 10px auto;
+}
+
+a {
+  /*This makes links the same colour as the paragraph text*/
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+a:hover {
+  /*This makes links the same colour as the headers, when hovered over*/
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.img-square {
+  width: 200px;
+  height: 200px;
+}
+
+.text-centre {
+  /*This centres text*/
+  text-align: center;
+}
+
+.header > p {
+  /*This constrains the width of the header paragraph and the tables*/
+  width: 750px;
+  margin: 10px auto;
+}
+
+.img-circle {
+  /*This makes an image fully circle*/
+  border-radius: 50%;
+}
+
+.img-profile {
+  /*This applies a slight border shadow to the profile image*/
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1)
+}
+
+.list-inline > ul > li {
+  /*This displays the list items in-line*/
+  display: inline;
+  padding: 0 0 0 0;
+  margin: 0px 100px;
+}
+
+.info-element {
+  padding: 0 10px;
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: space-around;
+  -webkit-justify-content: space-around; /*Makes it compatible with Safari*/
+}
+
