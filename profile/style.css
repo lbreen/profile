@@ -67,14 +67,15 @@ a:hover {
 }
 
 .info-element {
-  text-align: center;
+  padding: 0 10px;
+  width: 100%;
 }
 
-.flex {
+.flexbox {
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
-  justify-content: space-arounds;
-  -webkit-justify-content: space-arounds; /*Makes it compatible with Safari*/
+  justify-content: space-around;
+  -webkit-justify-content: space-around; /*Makes it compatible with Safari*/
 }
 
